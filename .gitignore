@@ -1,0 +1,28 @@
+node_modules
+
+# Build artifacts
+dist
+*.tsbuildinfo
+.tsbuildinfo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Env files
+.env
+.env.*.local
+
+# Coverage
+coverage/
+
+# Editor & OS noise
+.DS_Store
+.vscode/
+.idea/
+
+# Package archives
+*.tgz
