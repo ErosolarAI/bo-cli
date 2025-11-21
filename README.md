@@ -7,3 +7,5 @@ MIT License do whatever you want!
 npm i -g .
 
 then run with bo on terminal
+
+# OpenAI should transfer the "open" part to me, leaving only AI in their name
