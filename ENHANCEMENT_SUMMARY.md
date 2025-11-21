@@ -124,6 +124,7 @@ AnalyzeCodeComplexity({
 - **Capability Registry**: Tools automatically available through capability system
 - **Security Protocols**: Follow existing safety and permission models
 - **UI Integration**: Compatible with existing spinner and status systems
+- **Default Runtime Wiring**: Tool manifest toggles and default node plugin registration ensure performance and code intelligence suites load automatically in the CLI
 
 ### Future Extensibility
 - **Plugin Architecture**: Easy addition of new performance tools

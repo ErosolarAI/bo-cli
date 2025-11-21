@@ -2,7 +2,7 @@
   "$schema": "./schemas/tool-selection.schema.json",
   "contractVersion": "1.0.0",
   "profile": "bo-cli",
-  "version": "2024.07.17",
+  "version": "2025.02.17",
   "label": "Bo CLI tool manifest",
   "description": "Canonical list of capability suites, plugin bindings, and scope declarations for the default runtime.",
   "options": [
@@ -79,6 +79,15 @@
       "pluginIds": ["tool.code-analysis.structural"]
     },
     {
+      "id": "code-intelligence",
+      "label": "Code intelligence",
+      "description": "Advanced complexity analysis and maintainability scoring for code hotspots.",
+      "defaultEnabled": true,
+      "category": "analysis",
+      "scopes": ["analysis:code", "filesystem:read"],
+      "pluginIds": ["tool.code-intelligence.analysis"]
+    },
+    {
       "id": "code-quality",
       "label": "Code quality",
       "description": "Lint orchestration, maintainability insights, and rule inspection.",
@@ -122,6 +131,15 @@
       "category": "analysis",
       "scopes": ["analysis:testing"],
       "pluginIds": ["tool.testing.coverage"]
+    },
+    {
+      "id": "performance",
+      "label": "Performance optimization",
+      "description": "Parallel execution helpers for speeding up independent commands and workflows.",
+      "defaultEnabled": true,
+      "category": "analysis",
+      "scopes": ["process:exec"],
+      "pluginIds": ["tool.performance.optimization"]
     },
     {
       "id": "development",
